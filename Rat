@@ -48,7 +48,6 @@ local TextButton_Roundify_12px = Instance.new("ImageLabel")
 local UIListLayout_2 = Instance.new("UIListLayout")
 local wlframe = Instance.new("ImageLabel")
 local UIGradient = Instance.new("UIGradient")
-local copydisc = Instance.new("TextButton")
 local TextLabel_8 = Instance.new("TextLabel")
 local password = Instance.new("TextBox")
 local PAWN = Instance.new("TextLabel")
@@ -824,27 +823,6 @@ UIGradient.Color = ColorSequence.new{
 }
 UIGradient.Parent = wlframe
 
-copydisc.Name = "copydisc"
-copydisc.Parent = wlframe
-copydisc.BackgroundColor3 = Color3.fromRGB(255, 128, 0)
-copydisc.BorderColor3 = Color3.fromRGB(80, 108, 209)
-copydisc.BorderSizePixel = 0
-copydisc.Position = UDim2.new(0.0816284418, 0, 0.782224596, 0)
-copydisc.Size = UDim2.new(0, 78, 0, 24)
-copydisc.Font = Enum.Font.SourceSans
-copydisc.Text = "Copy Discord"
-copydisc.TextColor3 = Color3.fromRGB(0, 0, 0)
-copydisc.TextSize = 14.000
-
-TextLabel_8.Parent = copydisc
-TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-TextLabel_8.BorderSizePixel = 0
-TextLabel_8.Position = UDim2.new(0, 0, 1, 0)
-TextLabel_8.Size = UDim2.new(0, 0, 0, 1)
-TextLabel_8.Font = Enum.Font.SourceSans
-TextLabel_8.Text = ""
-TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_8.TextSize = 14.000
 
 password.Name = "password"
 password.Parent = wlframe
@@ -1222,8 +1200,6 @@ enter.MouseButton1Click:Connect(function()
 end)
 
 
-
-local script = Instance.new('LocalScript', copydisc)
 
 local label = script.Parent.TextLabel
 local parent = script.Parent
