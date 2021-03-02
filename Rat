@@ -897,7 +897,7 @@ Whitlist.TextSize = 25.000
 
 enterbutton.Name = "enterbutton"
 enterbutton.Parent = wlframe
-enterbutton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+enterbutton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 enterbutton.BorderColor3 = Color3.fromRGB(0, 189, 167)
 enterbutton.BorderSizePixel = 0
 enterbutton.Position = UDim2.new(0.678620756, 0, 0.780036092, 0)
@@ -909,7 +909,7 @@ enterbutton.TextColor3 = Color3.fromRGB(255, 128, 0)
 enterbutton.TextSize = 14.000
 
 TextLabel_9.Parent = enterbutton
-TextLabel_9.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
 TextLabel_9.BorderSizePixel = 0
 TextLabel_9.Position = UDim2.new(0, 0, 1, 0)
 TextLabel_9.Size = UDim2.new(0, 0, 0, 1)
