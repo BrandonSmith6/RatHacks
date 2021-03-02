@@ -330,234 +330,6 @@ TextButton_Roundify_10px_2.ScaleType = Enum.ScaleType.Slice
 TextButton_Roundify_10px_2.SliceCenter = Rect.new(100, 100, 100, 100)
 TextButton_Roundify_10px_2.SliceScale = 0.100
 
-chatspambtn.Name = "chatspambtn"
-chatspambtn.Parent = functionsframe
-chatspambtn.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
-chatspambtn.BackgroundTransparency = 1.000
-chatspambtn.BorderSizePixel = 0
-chatspambtn.Position = UDim2.new(0.000796765089, 0, 0.530099034, 0)
-chatspambtn.Size = UDim2.new(0, 369, 0, 33)
-chatspambtn.ZIndex = 2
-chatspambtn.Font = Enum.Font.GothamBold
-chatspambtn.Text = "Chat Spam"
-chatspambtn.TextColor3 = Color3.fromRGB(255, 255, 255)
-chatspambtn.TextSize = 20.000
-chatspambtn.MouseButton1Click:Connect(function()
-	spawn(function()
-		while wait(1) do
-			math.randomseed(os.time())
-		end
-	end)
-	local n
-
-	for index, garbage_collected in next, getgc(true) do
-		if (type(garbage_collected) == "table" and rawget(garbage_collected, "send")) then
-			n = garbage_collected
-			break
-		end
-	end
-
-	local phrases = {"VoteKick him hes hacking 🔥 🔥 🔥  Votekick hime hes hacking 🔥 🔥 🔥  Votekick hime hes hacking 🔥 🔥 🔥  Votekick hime hes hacking 🔥 🔥 🔥  Votekick hime hes hacking 🔥 🔥 🔥 ","Im not hacking 🤡 🤡 🤡 🤡 🤡 🤡 Im not hacking 🤡 🤡 🤡 🤡 🤡 🤡  Im not hacking 🤡 🤡 🤡 🤡 🤡 🤡 Im not hacking 🤡 🤡 🤡 🤡 🤡 🤡Im not hacking 🤡 🤡 🤡 🤡 🤡 🤡Im not hacking 🤡 🤡 🤡 🤡 🤡 🤡","Kid u suck😳 Kid u suck😳 Kid u suck😳 Kid u suck😳 Kid u suck😳 Kid u suck😳 Kid u suck😳 Kid u suck😳 Kid u suck😳 Kid u suck😳 Kid u suck😳 Kid u suck😳 Kid u suck😳 ","Your Bad At The Game 🤮🤮🤮 Im Good At The Game 🔥 🔥 🔥 Your Bad At The Game 🤮🤮🤮 Im Good At The Game 🔥 🔥 🔥 Your Bad At The Game 🤮🤮🤮 Your Bad At The Game 🤮🤮🤮 Your Bad At The Game 🤮🤮🤮","Your script = 🤮. My Script = 🔥 Your script = 🤮. My Script = 🔥Your script = 🤮. My Script = 🔥Your script = 🤮. My Script = 🔥Your script = 🤮. My Script = 🔥Your script = 🤮. My Script = 🔥","PH-ON-TOP     PH-ON-TOP     PH-ON-TOP     PH-ON-TOP     PH-ON-TOP     PH-ON-TOP     PH-ON-TOP     PH-ON-TOP     PH-ON-TOP     PH-ON-TOP     PH-ON-TOP     PH-ON-TOP     PH-ON-TOP     PH-ON-TOP","You: I Dont have PH 😢😢 You: I Dont have PH 😢😢 You: I Dont have PH 😢😢 You: I Dont have PH 😢😢 You: I Dont have PH 😢😢 You: I Dont have PH 😢😢 You: I Dont have PH 😢😢 You: I Dont have PH 😢😢","How to gain access I need it.🔑🔑 How to gain access I need it.🔑🔑How to gain access I need it.🔑🔑How to gain access I need it.🔑🔑How to gain access I need it.🔑🔑How to gain access I need it.🔑🔑How to gain access I need it.🔑🔑","Is that PH omg 😲😲😲. Is that PH omg 😲😲😲. Is that PH omg 😲😲😲. Is that PH omg 😲😲😲. Is that PH omg 😲😲😲. Is that PH omg 😲😲😲. Is that PH omg 😲😲😲. Is that PH omg 😲😲😲. Is that PH omg 😲😲😲. Is that PH omg 😲😲😲.","Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us. Join Us.","You should join us. You should join us. You should join us. You should join us. You should join us. You should join us. You should join us. You should join us. You should join us. You should join us. You should join us.","Whats that script 📜📜. Whats that script 📜📜. Whats that script 📜📜. Whats that script 📜📜. Whats that script 📜📜. Whats that script 📜📜. Whats that script 📜📜. Whats that script 📜📜. Whats that script 📜📜. Whats that script 📜📜.","Imagine not having PH 🤦‍♂️🤦‍♂️. Imagine not having PH 🤦‍♂️🤦‍♂️. Imagine not having PH 🤦‍♂️🤦‍♂️. Imagine not having PH 🤦‍♂️🤦‍♂️. Imagine not having PH 🤦‍♂️🤦‍♂️. Imagine not having PH 🤦‍♂️🤦‍♂️. Imagine not having PH 🤦‍♂️🤦‍♂️. Imagine not having PH 🤦‍♂️🤦‍♂️.","You Paid 💰💰 You Paid 💰💰 You Paid 💰💰 You Paid 💰💰 You Paid 💰💰 You Paid 💰💰 You Paid 💰💰 You Paid 💰💰 You Paid 💰💰 You Paid 💰💰 You Paid 💰💰 You Paid 💰💰 You Paid 💰💰 You Paid 💰💰 You Paid 💰💰 You Paid 💰💰 You Paid 💰💰 You Paid 💰💰","⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️","dis💠rd.io/ph-on-top. its FREE 🤑🤑 dis💠rd.io/ph-on-top. its FREE 🤑🤑 dis💠rd.io/ph-on-top. its FREE 🤑🤑 dis💠rd.io/ph-on-top. its FREE 🤑🤑 dis💠rd.io/ph-on-top. its FREE 🤑🤑 dis💠rd.io/ph-on-top. its FREE 🤑🤑 dis💠rd.io/ph-on-top. its FREE 🤑🤑","Stop trying. Stop trying. Stop trying. Stop trying. Stop trying. Stop trying. Stop trying. Stop trying. Stop trying. Stop trying. Stop trying. Stop trying. Stop trying. Stop trying. Stop trying. Stop trying. Stop trying. Stop trying. Stop trying. ","I wish I had chat spam BoooHoooo. 😢😢😢I wish I had chat spam BoooHoooo. 😢😢😢I wish I had chat spam BoooHoooo. 😢😢😢I wish I had chat spam BoooHoooo. 😢😢😢I wish I had chat spam BoooHoooo. 😢😢😢I wish I had chat spam BoooHoooo. 😢😢😢I wish I had chat spam BoooHoooo. 😢😢😢","Kick Him Hes Annoying.Kick Him Hes Annoying.Kick Him Hes Annoying.Kick Him Hes Annoying.Kick Him Hes Annoying.Kick Him Hes Annoying.Kick Him Hes Annoying.Kick Him Hes Annoying.Kick Him Hes Annoying.Kick Him Hes Annoying.Kick Him Hes Annoying.","Im not racist ❌❌👨🏿👨🏿❌❌ Im not racist ✔️✔️👨🏿👨🏿✔️✔️Im not racist ❌❌👨🏿👨🏿❌❌ Im not racist ✔️✔️👨🏿👨🏿✔️✔️Im not racist ❌❌👨🏿👨🏿❌❌ Im not racist ✔️✔️👨🏿👨🏿✔️✔️Im not racist ❌❌👨🏿👨🏿❌❌ Im not racist ✔️✔️👨🏿👨🏿✔️✔️Im not racist ❌❌👨🏿👨🏿❌❌ Im not racist ✔️✔️👨🏿👨🏿✔️✔️","You look lost..You look lost..You look lost..You look lost..You look lost..You look lost..You look lost..You look lost..You look lost..You look lost..You look lost..You look lost..You look lost..You look lost..You look lost..You look lost..You look lost..You look lost..You look lost..","Im not racist ❌❌👨🏿👨🏿❌❌ Im not racist ✔️✔️👨🏿👨🏿✔️✔️Im not racist ❌❌👨🏿👨🏿❌❌ Im not racist ✔️✔️👨🏿👨🏿✔️✔️Im not racist ❌❌👨🏿👨🏿❌❌ Im not racist ✔️✔️👨🏿👨🏿✔️✔️Im not racist ❌❌👨🏿👨🏿❌❌ Im not racist ✔️✔️👨🏿👨🏿✔️✔️Im not racist ❌❌👨🏿👨🏿❌❌ Im not racist ✔️✔️👨🏿👨🏿✔️✔️","Me before PH 😔🔫. Me now 😜😜😜 Me before PH 😔🔫. Me now 😜😜😜 Me before PH 😔🔫. Me now 😜😜😜 Me before PH 😔🔫. Me now 😜😜😜 Me before PH 😔🔫. Me now 😜😜😜 Me before PH 😔🔫. Me now 😜😜😜 Me before PH 😔🔫. Me now 😜😜😜 Me before PH 😔🔫. Me now 😜😜😜 Me before PH 😔🔫. Me now 😜😜😜","OMG Look At Me Mom No Hands 🤣🤣🤣 OMG Look At Me Mom No Hands 🤣🤣🤣 OMG Look At Me Mom No Hands 🤣🤣🤣 OMG Look At Me Mom No Hands 🤣🤣🤣 OMG Look At Me Mom No Hands 🤣🤣🤣 OMG Look At Me Mom No Hands 🤣🤣🤣 OMG Look At Me Mom No Hands 🤣🤣🤣","0 Brain Cells ❌🧠🧠🧠❌ 0 Brain Cells ❌🧠🧠🧠❌ 0 Brain Cells ❌🧠🧠🧠❌ 0 Brain Cells ❌🧠🧠🧠❌ 0 Brain Cells ❌🧠🧠🧠❌ 0 Brain Cells ❌🧠🧠🧠❌ 0 Brain Cells ❌🧠🧠🧠❌ 0 Brain Cells ❌🧠🧠🧠❌ 0 Brain Cells ❌🧠🧠🧠❌ 0 Brain Cells ❌🧠🧠🧠❌","#Winning - #Winning - #Winning - #Winning - #Winning - #Winning - #Winning - #Winning - #Winning - #Winning - #Winning - #Winning - #Winning - #Winning - #Winning - #Winning - #Winning - #Winning - #Winning - #Winning - #Winning","Kid stop trying u almost lost an ankle 🏀🏀🏀  Kid stop trying u almost lost an ankle 🏀🏀🏀  Kid stop trying u almost lost an ankle 🏀🏀🏀  Kid stop trying u almost lost an ankle 🏀🏀🏀  Kid stop trying u almost lost an ankle 🏀🏀🏀  Kid stop trying u almost lost an ankle 🏀🏀🏀","Made You Look Imao 👌🧐🧐👌👌 Made You Look Imao 👌🧐🧐👌👌 Made You Look Imao 👌🧐🧐👌👌 Made You Look Imao 👌🧐🧐👌👌 Made You Look Imao 👌🧐🧐👌👌 Made You Look Imao 👌🧐🧐👌👌 Made You Look Imao 👌🧐🧐👌👌 Made You Look Imao 👌🧐🧐👌👌 Made You Look Imao 👌🧐🧐👌👌 Made You Look Imao 👌🧐🧐👌👌","Why Are You Still Here 🤷‍♂️🤷‍♂️🤷‍♂️ Why Are You Still Here 🤷‍♂️🤷‍♂️🤷‍♂️ Why Are You Still Here 🤷‍♂️🤷‍♂️🤷‍♂️ Why Are You Still Here 🤷‍♂️🤷‍♂️🤷‍♂️ Why Are You Still Here 🤷‍♂️🤷‍♂️🤷‍♂️ Why Are You Still Here 🤷‍♂️🤷‍♂️🤷‍♂️ Why Are You Still Here 🤷‍♂️🤷‍♂️🤷‍♂️ Why Are You Still Here 🤷‍♂️🤷‍♂️🤷‍♂️ Why Are You Still Here 🤷‍♂️🤷‍♂️🤷‍♂️",}
-
-	while true do
-		local sleep = math.random(1, 2)
-		wait(sleep)
-		local spam = phrases[math.random(#phrases)]
-		n:send("chatted", spam)
-	end
-end)
-	
-TextLabel_3.Parent = chatspambtn
-TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.BorderSizePixel = 0
-TextLabel_3.Position = UDim2.new(0.0216802154, 0, 0.215412498, 0)
-TextLabel_3.Size = UDim2.new(0, 20, 0, 18)
-TextLabel_3.ZIndex = 2
-TextLabel_3.Font = Enum.Font.SourceSans
-TextLabel_3.Text = ""
-TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_3.TextSize = 14.000
-
-TextButton_Roundify_10px_3.Name = "TextButton_Roundify_10px"
-TextButton_Roundify_10px_3.Parent = chatspambtn
-TextButton_Roundify_10px_3.Active = true
-TextButton_Roundify_10px_3.AnchorPoint = Vector2.new(0.5, 0.5)
-TextButton_Roundify_10px_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_Roundify_10px_3.BackgroundTransparency = 1.000
-TextButton_Roundify_10px_3.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextButton_Roundify_10px_3.Selectable = true
-TextButton_Roundify_10px_3.Size = UDim2.new(1, 0, 1, 0)
-TextButton_Roundify_10px_3.Image = "rbxassetid://3570695787"
-TextButton_Roundify_10px_3.ImageColor3 = Color3.fromRGB(43, 43, 43)
-TextButton_Roundify_10px_3.ScaleType = Enum.ScaleType.Slice
-TextButton_Roundify_10px_3.SliceCenter = Rect.new(100, 100, 100, 100)
-TextButton_Roundify_10px_3.SliceScale = 0.100
-
-killsaybtn.Name = "killsaybtn"
-killsaybtn.Parent = functionsframe
-killsaybtn.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
-killsaybtn.BackgroundTransparency = 1.000
-killsaybtn.BorderSizePixel = 0
-killsaybtn.Position = UDim2.new(-0.00120323896, 0, 0.400099009, 0)
-killsaybtn.Size = UDim2.new(0, 369, 0, 33)
-killsaybtn.ZIndex = 2
-killsaybtn.Font = Enum.Font.GothamBold
-killsaybtn.Text = "Kill Say"
-killsaybtn.TextColor3 = Color3.fromRGB(255, 255, 255)
-killsaybtn.TextSize = 20.000
-killsaybtn.MouseButton1Click:Connect(function()
-	local Camera = game:GetService("Workspace").CurrentCamera
-	local RunService = game:GetService("RunService")
-	local UserInputService = game:GetService("UserInputService")
-	local FontValue = 3
-	local Visibility = true 
-	local kill_msgs = { -- put the text "name" in the string like it is below feel free to put your own in!! :)
-		"killed u with PH name ",
-		"name You Just Got Killed By PH",
-		"Are You Gonna Cry name",
-		"name is bad",
-		"name Dont Cry",
-		"I Got PH And You Dont name",
-	}
-
-	local Services = {
-		Workspace = game:GetService("Workspace"),
-		Players = game:GetService("Players"),
-		LocalPlayer = game:GetService("Players").LocalPlayer,
-		UserInputService = game:GetService("UserInputService"),
-		Camera = game:GetService("Workspace").CurrentCamera,
-		Mouse = game:GetService("Players").LocalPlayer:GetMouse(),
-		RunService = game:GetService("RunService"),
-		HttpService = game:GetService("HttpService"),
-		Lighting = game:GetService("Lighting")
-	}
-	local send
-	local network
-
-	for i, v in pairs(getgc(true)) do
-		if type(v) == "table" and rawget(v, "send") then
-			send = v.send
-			network = v
-		end
-	end
-
-	function GetMsg(name)
-		local maxnum = 0
-		for i, v in pairs(kill_msgs) do
-			maxnum = maxnum + 1
-		end
-		return string.gsub(kill_msgs[math.random(1, maxnum)], "name", name)
-	end
-
-	Services.LocalPlayer.PlayerGui.MainGui.GameGui.Killfeed.ChildAdded:Connect(function(Feed)
-		delay(0.1, function()
-			if Feed.Text == Services.LocalPlayer.Name then
-				send(network, "chatted", tostring(GetMsg(Feed.Victim.Text)))
-			end
-		end)
-	end)
-end)
-TextLabel_4.Parent = killsaybtn
-TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_4.BorderSizePixel = 0
-TextLabel_4.Position = UDim2.new(0.0216802154, 0, 0.215412498, 0)
-TextLabel_4.Size = UDim2.new(0, 20, 0, 18)
-TextLabel_4.ZIndex = 2
-TextLabel_4.Font = Enum.Font.SourceSans
-TextLabel_4.Text = ""
-TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_4.TextSize = 14.000
-
-TextButton_Roundify_10px_4.Name = "TextButton_Roundify_10px"
-TextButton_Roundify_10px_4.Parent = killsaybtn
-TextButton_Roundify_10px_4.Active = true
-TextButton_Roundify_10px_4.AnchorPoint = Vector2.new(0.5, 0.5)
-TextButton_Roundify_10px_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_Roundify_10px_4.BackgroundTransparency = 1.000
-TextButton_Roundify_10px_4.Position = UDim2.new(0.5, 0, 0.5, 0)
-TextButton_Roundify_10px_4.Selectable = true
-TextButton_Roundify_10px_4.Size = UDim2.new(1, 0, 1, 0)
-TextButton_Roundify_10px_4.Image = "rbxassetid://3570695787"
-TextButton_Roundify_10px_4.ImageColor3 = Color3.fromRGB(43, 43, 43)
-TextButton_Roundify_10px_4.ScaleType = Enum.ScaleType.Slice
-TextButton_Roundify_10px_4.SliceCenter = Rect.new(100, 100, 100, 100)
-TextButton_Roundify_10px_4.SliceScale = 0.100
-
-flybtn.Name = "flybtn"
-flybtn.Parent = functionsframe
-flybtn.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
-flybtn.BackgroundTransparency = 1.000
-flybtn.BorderSizePixel = 0
-flybtn.Position = UDim2.new(0.000796765089, 0, 0.274099022, 0)
-flybtn.Size = UDim2.new(0, 369, 0, 33)
-flybtn.ZIndex = 2
-flybtn.Font = Enum.Font.GothamBold
-flybtn.Text = "Fly"
-flybtn.TextColor3 = Color3.fromRGB(255, 255, 255)
-flybtn.TextSize = 20.000
-flybtn.MouseButton1Click:Connect(function()
-	local a = game:GetService("UserInputService")
-	local b = false
-	a.InputBegan:Connect(function(a)
-		if (a.KeyCode == Enum.KeyCode.W) then
-			b = true
-			while b do
-				local a = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:FindFirstChildOfClass("BodyVelocity")
-				a.MaxForce = Vector3.new(123123, 123123, 123123)
-				a.Velocity = Vector3.new(0, 0, 0) + game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector * 50
-				wait(0.2)
-			end
-		end
-	end)
-	a.InputEnded:Connect(function(a)
-		if (a.KeyCode == Enum.KeyCode.W) then
-			b = false
-			local a = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:FindFirstChildOfClass("BodyVelocity")
-			a.MaxForce = Vector3.new(123123, 123123, 123123)
-			a.Velocity = Vector3.new(0, 0, 0)
-		end
-	end)
-	local b = false
-	a.InputBegan:Connect(function(a)
-		if (a.KeyCode == Enum.KeyCode.Space) then
-			b = true
-			while b do
-				local a = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:FindFirstChildOfClass("BodyVelocity")
-				a.MaxForce = Vector3.new(123123, 123123, 123123)
-				a.Velocity = Vector3.new(0, 25, 0)
-				wait(0.2)
-			end
-		end
-	end)
-	a.InputEnded:Connect(function(a)
-		if (a.KeyCode == Enum.KeyCode.Space) then
-			b = false
-			local a = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:FindFirstChildOfClass("BodyVelocity")
-			a.MaxForce = Vector3.new(0, 0, 0)
-			a.Velocity = Vector3.new(0, 0, 0)
-		end
-	end)
-	local b = false
-	a.InputBegan:Connect(function(a)
-		if (a.KeyCode == Enum.KeyCode.S) then
-			b = true
-			while b do
-				local a = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:FindFirstChildOfClass("BodyVelocity")
-				a.MaxForce = Vector3.new(123123, 123123, 123123)
-				a.Velocity = Vector3.new(0, 0, 0) - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector * 50
-				wait(0.2)
-			end
-		end
-	end)
-	a.InputEnded:Connect(function(a)
-		if (a.KeyCode == Enum.KeyCode.W) then
-			b = false
-			local a = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:FindFirstChildOfClass("BodyVelocity")
-			a.MaxForce = Vector3.new(0, 0, 0)
-			a.Velocity = Vector3.new(0, 0, 0)
-		end
-	end)
-end)
 
 TextLabel_5.Parent = flybtn
 TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -819,14 +591,14 @@ wlframe.SliceScale = 0.120
 UIGradient.Color = ColorSequence.new{
 	ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)),
 	ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)),
-	ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 153, 0)),
+	ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 0)),
 	ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))
 }
 UIGradient.Parent = wlframe
 
 copydisc.Name = "copydisc"
 copydisc.Parent = wlframe
-copydisc.BackgroundColor3 = Color3.fromRGB(255, 128, 0)
+copydisc.BackgroundColor3 = Color3.fromRGB(2550, 0)
 copydisc.BorderColor3 = Color3.fromRGB(80, 108, 209)
 copydisc.BorderSizePixel = 0
 copydisc.Position = UDim2.new(0.0816284418, 0, 0.782224596, 0)
@@ -857,7 +629,7 @@ password.PlaceholderText = "Key Here."
 password.Text = ""
 password.TextColor3 = Color3.fromRGB(0, 0, 0)
 password.TextSize = 17.000
-password.TextStrokeColor3 = Color3.fromRGB(255, 170, 0)
+password.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
 password.TextWrapped = true
 
 PAWN.Name = "PAWN"
@@ -905,7 +677,7 @@ enterbutton.Size = UDim2.new(0, 78, 0, 24)
 enterbutton.ZIndex = 2
 enterbutton.Font = Enum.Font.SourceSans
 enterbutton.Text = "Enter"
-enterbutton.TextColor3 = Color3.fromRGB(255, 128, 0)
+enterbutton.TextColor3 = Color3.fromRGB(0, 0, 0)
 enterbutton.TextSize = 14.000
 
 TextLabel_9.Parent = enterbutton
