@@ -1,0 +1,830 @@
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("ImageLabel")
+local LeftFrame = Instance.new("Frame")
+local Credits = Instance.new("ImageLabel")
+local Drex = Instance.new("TextLabel")
+local Integer = Instance.new("TextLabel")
+local RandomDude = Instance.new("TextLabel")
+local Spaz = Instance.new("TextLabel")
+local Teax = Instance.new("TextLabel")
+local tsimod0 = Instance.new("TextLabel")
+local UIGridLayout = Instance.new("UIGridLayout")
+local BoomersHighness = Instance.new("TextLabel")
+local HubNameText = Instance.new("TextLabel")
+local BETA = Instance.new("TextLabel")
+local MoreSoon = Instance.new("TextLabel")
+local Creditsname = Instance.new("TextLabel")
+local mainfuncbtn = Instance.new("TextButton")
+local MainFrame = Instance.new("ImageLabel")
+local otherbtn = Instance.new("TextButton")
+local Otherframe = Instance.new("ImageLabel")
+local functionsframe = Instance.new("Frame")
+local worldchangecolourbtn = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local TextButton_Roundify_10px = Instance.new("ImageLabel")
+local grenadetpbtn = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextButton_Roundify_10px_2 = Instance.new("ImageLabel")
+local chatspambtn = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextButton_Roundify_10px_3 = Instance.new("ImageLabel")
+local killsaybtn = Instance.new("TextButton")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextButton_Roundify_10px_4 = Instance.new("ImageLabel")
+local flybtn = Instance.new("TextButton")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextButton_Roundify_10px_5 = Instance.new("ImageLabel")
+local silentaimtbtn = Instance.new("TextButton")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextButton_Roundify_10px_6 = Instance.new("ImageLabel")
+local espbtn = Instance.new("TextButton")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextButton_Roundify_10px_7 = Instance.new("ImageLabel")
+local UIListLayout = Instance.new("UIListLayout")
+local otherframe = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local TextButton_Roundify_12px = Instance.new("ImageLabel")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local wlframe = Instance.new("ImageLabel")
+local UIGradient = Instance.new("UIGradient")
+local TextLabel_8 = Instance.new("TextLabel")
+local password = Instance.new("TextBox")
+local PAWN = Instance.new("TextLabel")
+local BETA_2 = Instance.new("TextLabel")
+local Whitlist = Instance.new("TextLabel")
+local enterbutton = Instance.new("TextButton")
+local TextLabel_9 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Frame.Name = "Frame"
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.ClipsDescendants = true
+Frame.Position = UDim2.new(0.349618822, 0, 0.31571129, 0)
+Frame.Size = UDim2.new(0, 577, 0, 323)
+Frame.Visible = false
+Frame.Image = "rbxassetid://3570695787"
+Frame.ImageColor3 = Color3.fromRGB(76, 76, 76)
+Frame.ScaleType = Enum.ScaleType.Slice
+Frame.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame.SliceScale = 0.120
+
+LeftFrame.Name = "LeftFrame"
+LeftFrame.Parent = Frame
+LeftFrame.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+LeftFrame.BackgroundTransparency = 1.000
+LeftFrame.Position = UDim2.new(0.0197915751, 0, 0.025277406, 0)
+LeftFrame.Size = UDim2.new(0, 162, 0, 306)
+
+Credits.Name = "Credits"
+Credits.Parent = LeftFrame
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits.BackgroundTransparency = 1.000
+Credits.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Credits.Position = UDim2.new(0.0500000007, 0, 0.566999972, 0)
+Credits.Size = UDim2.new(0, 147, 0, 119)
+Credits.Image = "rbxassetid://3570695787"
+Credits.ImageColor3 = Color3.fromRGB(89, 89, 89)
+Credits.ScaleType = Enum.ScaleType.Slice
+Credits.SliceCenter = Rect.new(100, 100, 100, 100)
+Credits.SliceScale = 0.120
+
+HubNameText.Name = "Hub Name Text"
+HubNameText.Parent = LeftFrame
+HubNameText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HubNameText.BackgroundTransparency = 1.000
+HubNameText.BorderColor3 = Color3.fromRGB(27, 42, 53)
+HubNameText.BorderSizePixel = 0
+HubNameText.Position = UDim2.new(-0.0190397725, 0, 0.0116364136, 0)
+HubNameText.Size = UDim2.new(0, 168, 0, 46)
+HubNameText.Font = Enum.Font.GothamBlack
+HubNameText.Text = "Rats Hacks"
+HubNameText.TextColor3 = Color3.fromRGB(255, 243, 178)
+HubNameText.TextSize = 30.000
+
+mainfuncbtn.Name = "mainfuncbtn"
+mainfuncbtn.Parent = LeftFrame
+mainfuncbtn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+mainfuncbtn.BackgroundTransparency = 1.000
+mainfuncbtn.BorderColor3 = Color3.fromRGB(27, 42, 53)
+mainfuncbtn.BorderSizePixel = 0
+mainfuncbtn.Position = UDim2.new(0.0680000037, 0, 0.189999998, 0)
+mainfuncbtn.Size = UDim2.new(0, 141, 0, 24)
+mainfuncbtn.ZIndex = 2
+mainfuncbtn.Font = Enum.Font.GothamBold
+mainfuncbtn.Text = "Main Functions"
+mainfuncbtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+mainfuncbtn.TextSize = 16.000
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = mainfuncbtn
+MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainFrame.BackgroundTransparency = 1.000
+MainFrame.Position = UDim2.new(-0.0130141899, 0, -0.0249999985, 0)
+MainFrame.Size = UDim2.new(0, 143, 0, 26)
+MainFrame.Image = "rbxassetid://3570695787"
+MainFrame.ImageColor3 = Color3.fromRGB(89, 89, 89)
+MainFrame.ScaleType = Enum.ScaleType.Slice
+MainFrame.SliceCenter = Rect.new(100, 100, 100, 100)
+MainFrame.SliceScale = 0.120
+
+flybtn.Name = "flybtn"
+flybtn.Parent = functionsframe
+flybtn.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+flybtn.BackgroundTransparency = 1.000
+flybtn.BorderSizePixel = 0
+flybtn.Position = UDim2.new(0.000796765089, 0, 0.274099022, 0)
+flybtn.Size = UDim2.new(0, 369, 0, 33)
+flybtn.ZIndex = 2
+flybtn.Font = Enum.Font.GothamBold
+flybtn.Text = "Fly"
+flybtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+flybtn.TextSize = 20.000
+flybtn.MouseButton1Click:Connect(function()
+	local a = game:GetService("UserInputService")
+	local b = false
+	a.InputBegan:Connect(function(a)
+		if (a.KeyCode == Enum.KeyCode.W) then
+			b = true
+			while b do
+				local a = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:FindFirstChildOfClass("BodyVelocity")
+				a.MaxForce = Vector3.new(123123, 123123, 123123)
+				a.Velocity = Vector3.new(0, 0, 0) + game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector * 50
+				wait(0.2)
+			end
+		end
+	end)
+	a.InputEnded:Connect(function(a)
+		if (a.KeyCode == Enum.KeyCode.W) then
+			b = false
+			local a = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:FindFirstChildOfClass("BodyVelocity")
+			a.MaxForce = Vector3.new(123123, 123123, 123123)
+			a.Velocity = Vector3.new(0, 0, 0)
+		end
+	end)
+	local b = false
+	a.InputBegan:Connect(function(a)
+		if (a.KeyCode == Enum.KeyCode.Space) then
+			b = true
+			while b do
+				local a = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:FindFirstChildOfClass("BodyVelocity")
+				a.MaxForce = Vector3.new(123123, 123123, 123123)
+				a.Velocity = Vector3.new(0, 25, 0)
+				wait(0.2)
+			end
+		end
+	end)
+	a.InputEnded:Connect(function(a)
+		if (a.KeyCode == Enum.KeyCode.Space) then
+			b = false
+			local a = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:FindFirstChildOfClass("BodyVelocity")
+			a.MaxForce = Vector3.new(0, 0, 0)
+			a.Velocity = Vector3.new(0, 0, 0)
+		end
+	end)
+	local b = false
+	a.InputBegan:Connect(function(a)
+		if (a.KeyCode == Enum.KeyCode.S) then
+			b = true
+			while b do
+				local a = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:FindFirstChildOfClass("BodyVelocity")
+				a.MaxForce = Vector3.new(123123, 123123, 123123)
+				a.Velocity = Vector3.new(0, 0, 0) - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector * 50
+				wait(0.2)
+			end
+		end
+	end)
+	a.InputEnded:Connect(function(a)
+		if (a.KeyCode == Enum.KeyCode.W) A a then
+			u= = false
+y
+j
+			a.Velocity = Vector3.new(0, 0, 0)
+		xD end
+	end)
+end)
+
+TextLabel_5.Parent = flybtn
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Positionhhhfngxv xD = UDim2.new(0.0216802154, 0, 0.215412498, 0)
+TextLabel_5.Size = UDim2.new(0, 20, 0, 18)
+TextLabel_5.ZIndex = 2
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = ""
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.TextSize = 14.000
+
+TextButton_Roundify_10px_5.Name = "TextButton_Roundify_10px"
+TextButton_Roundify_10px_5.Parent = flybtn
+TextButton_Roundify_10px_5.Active = true
+TextButton_Roundify_10px_5.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_10px_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_10px_5.BackgroundTransparency = 1.000
+TextButton_Roundify_10px_5.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_10px_5.Selectable = true
+TextButton_Roundify_10px_5.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_10px_5.Image = "rbxassetid://3570695787"
+TextButton_Roundify_10px_5.ImageColor3 = Color3.fromRGB(43, 43, 43)
+TextButton_Roundify_10px_5.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_10px_5.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_10px_5.SliceScale = 0.100
+
+silentaimtbtn.Name = "silentaimtbtn"
+silentaimtbtn.Parent = functionsframe
+silentaimtbtn.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+silentaimtbtn.BackgroundTransparency = 1.000
+silentaimtbtn.BorderSizePixel = 0
+silentaimtbtn.Position = UDim2.new(0.000518858433, 0, 0.0265109204, 0)
+silentaimtbtn.Size = UDim2.new(0, 369, 0, 33)
+silentaimtbtn.ZIndex = 2
+silentaimtbtn.Font = Enum.Font.GothamBold
+silentaimtbtn.Text = "Silent Aim"
+silentaimtbtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+silentaimtbtn.TextSize = 20.000
+silentaimtbtn.MouseButton1Click:Connect(function()
+	local Players = game:GetService("Players")
+	local Camera = workspace.CurrentCamera
+	local LocalPlayer = Players.LocalPlayer
+	local Mouse = LocalPlayer:GetMouse()
+	local GameLogic, CharTable, Trajectory
+	for I, V in pairs(getgc(true)) do
+		if type(V) == "table" then
+			if rawget(V, "gammo") then
+				GameLogic = V
+			end
+		elseif type(V) == "function" then
+			if debug.getinfo(V).name == "getbodyparts" then
+				CharTable = debug.getupvalue(V, 1)
+			elseif debug.getinfo(V).name == "trajectory" then
+				Trajectory = V
+			end
+		end
+		if GameLogic and CharTable and Trajectory then
+			break
+		end
+	end
+	local function Closest()
+		local Max, Close = math.huge
+		for I, V in pairs(Players:GetPlayers()) do
+			if V ~= LocalPlayer and V.Team ~= LocalPlayer.Team and CharTable[V] then
+				local Pos, OnScreen = Camera:WorldToScreenPoint(CharTable[V].head.Position)
+				if OnScreen then
+					local Dist = (Vector2.new(Pos.X, Pos.Y) - Vector2.new(Mouse.X, Mouse.Y)).Magnitude
+					if Dist < Max then
+						Max = Dist
+						Close = V
+					end
+				end
+			end
+		end
+		return Close
+	end
+	local MT = getrawmetatable(game)
+	local __index = MT.__index
+	setreadonly(MT, false)
+	MT.__index = newcclosure(function(self, K)
+		if not checkcaller() and GameLogic.currentgun and GameLogic.currentgun.data and (self == GameLogic.currentgun.barrel or tostring(self) == "SightMark") and K == "CFrame" then
+			local CharChosen = (CharTable[Closest()] and CharTable[Closest()].head)
+			if CharChosen then
+				local _, Time = Trajectory(self.Position, Vector3.new(0, -workspace.Gravity, 0), CharChosen.Position, GameLogic.currentgun.data.bulletspeed)
+				return CFrame.new(self.Position, CharChosen.Position + (Vector3.new(0, -workspace.Gravity / 2, 0)) * (Time ^ 2) + (CharChosen.Velocity * Time))
+			end
+		end
+		return __index(self, K)
+	end)
+	setreadonly(MT, true)
+
+	
+end)
+TextLabel_6.Parent = silentaimtbtn
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.0216802154, 0, 0.215412498, 0)
+TextLabel_6.Size = UDim2.new(0, 20, 0, 18)
+TextLabel_6.ZIndex = 2
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = ""
+TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.TextSize = 14.000
+
+TextButton_Roundify_10px_6.Name = "TextButton_Roundify_10px"
+TextButton_Roundify_10px_6.Parent = silentaimtbtn
+TextButton_Roundify_10px_6.Active = true
+TextButton_Roundify_10px_6.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_10px_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_10px_6.BackgroundTransparency = 1.000
+TextButton_Roundify_10px_6.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_10px_6.Selectable = true
+TextButton_Roundify_10px_6.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_10px_6.Image = "rbxassetid://3570695787"
+TextButton_Roundify_10px_6.ImageColor3 = Color3.fromRGB(43, 43, 43)
+TextButton_Roundify_10px_6.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_10px_6.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_10px_6.SliceScale = 0.100
+
+espbtn.Name = "espbtn"
+espbtn.Parent = functionsframe
+espbtn.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+espbtn.BackgroundTransparency = 1.000
+espbtn.BorderSizePixel = 0
+espbtn.Position = UDim2.new(0.000518858433, 0, 0.15034993, 0)
+espbtn.Size = UDim2.new(0, 369, 0, 33)
+espbtn.ZIndex = 2
+espbtn.Font = Enum.Font.GothamBold
+espbtn.Text = "ESP"
+espbtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+espbtn.TextSize = 20.000
+espbtn.MouseButton1Click:Connect(function()
+	local chams = game.RunService.RenderStepped:Connect(function()
+		local Players = game:GetService("Players")
+		if not shared.PF_Replication then
+			for i, v in pairs(getgc(true)) do
+				if typeof(v) == 'table' and rawget(v, 'getbodyparts') then
+					shared.PF_Replication = v
+					break
+				end
+			end
+		else
+			for Index, Player in pairs(Players:GetPlayers()) do
+				local Body = shared.PF_Replication.getbodyparts(Player)
+				if Body and typeof(Body) == 'table' and rawget(Body, 'rootpart') and Player.Team ~= Players.LocalPlayer.Team then
+					Player.Character = Body.rootpart.Parent
+					for a, b in pairs(Player.Character:GetChildren()) do
+						if b.ClassName ~= "Model" and tostring(b) ~= "HumanoidRootPart" and not b:FindFirstChild("box") then
+							for i = 1, 2 do
+								if tostring(b) ~= "Head" then
+									box = Instance.new("BoxHandleAdornment", b)
+									box.Size = b.Size + Vector3.new(0.1, 0.1, 0.1)
+								else
+									box = Instance.new("CylinderHandleAdornment", b)
+									box.Height = b.Size.Y + 0.3
+									box.Radius = b.Size.X / 2 + 0.2
+									box.CFrame = CFrame.new(Vector3.new(), Vector3.new(0, 1, 0))
+								end
+								box.Adornee = b
+								box.Name = "box" , tostring(i)
+								box.ZIndex = 1
+								if i == 1 then
+									box.AlwaysOnTop = false;
+									box.Color3 = Color3.fromRGB(255, 0, 0)
+									box.Transparency = 0
+								else
+									box.AlwaysOnTop = true;
+									box.Color3 = Color3.fromRGB(0, 0, 255)
+									box.Transparency = 0.7
+								end
+							end
+						end
+					end
+				end
+			end
+		end
+	end)
+end)	
+TextLabel_7.Parent = espbtn
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0.0216802154, 0, 0.215412498, 0)
+TextLabel_7.Size = UDim2.new(0, 20, 0, 18)
+TextLabel_7.ZIndex = 2
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = ""
+TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.TextSize = 14.000
+
+TextButton_Roundify_10px_7.Name = "TextButton_Roundify_10px"
+TextButton_Roundify_10px_7.Parent = espbtn
+TextButton_Roundify_10px_7.Active = true
+TextButton_Roundify_10px_7.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_10px_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_10px_7.BackgroundTransparency = 1.000
+TextButton_Roundify_10px_7.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_10px_7.Selectable = true
+TextButton_Roundify_10px_7.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_10px_7.Image = "rbxassetid://3570695787"
+TextButton_Roundify_10px_7.ImageColor3 = Color3.fromRGB(43, 43, 43)
+TextButton_Roundify_10px_7.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_10px_7.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_10px_7.SliceScale = 0.100
+
+UIListLayout.Parent = functionsframe
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.VerticalAlignment = Enum.VerticalAlignment.Center
+UIListLayout.Padding = UDim.new(0, 10)
+
+otherframe.Name = "otherframe"
+otherframe.Parent = Frame
+otherframe.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+otherframe.BorderSizePixel = 0
+otherframe.Position = UDim2.new(0.324000001, 0, -1, 0)
+otherframe.Size = UDim2.new(0, 369, 0, 303)
+
+TextButton.Parent = otherframe
+TextButton.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+TextButton.BackgroundTransparency = 1.000
+TextButton.BorderSizePixel = 0
+TextButton.Size = UDim2.new(0, 117, 0, 39)
+TextButton.ZIndex = 2
+TextButton.Font = Enum.Font.GothamBlack
+TextButton.Text = "Kill Gui"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 14.000
+
+TextButton_Roundify_12px.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px.Parent = TextButton
+TextButton_Roundify_12px.Active = true
+TextButton_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px.BackgroundTransparency = 1.000
+TextButton_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px.Selectable = true
+TextButton_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px.ImageColor3 = Color3.fromRGB(43, 43, 43)
+TextButton_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px.SliceScale = 0.120
+
+UIListLayout_2.Parent = otherframe
+UIListLayout_2.Padding = UDim.new(0, 10)
+
+wlframe.Name = "wlframe"
+wlframe.Parent = ScreenGui
+wlframe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+wlframe.BackgroundTransparency = 1.000
+wlframe.BorderSizePixel = 0
+wlframe.Position = UDim2.new(0.413195282, 0, 0.374794602, 0)
+wlframe.Size = UDim2.new(0, 331, 0, 206)
+wlframe.Image = "rbxassetid://3570695787"
+wlframe.ScaleType = Enum.ScaleType.Slice
+wlframe.SliceCenter = Rect.new(100, 100, 100, 100)
+wlframe.SliceScale = 0.120
+
+UIGradient.Color = ColorSequence.new{
+	ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)),
+	ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)),
+	ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 0)),
+	ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))
+}
+UIGradient.Parent = wlframe
+
+
+-- Scripts:
+
+
+local script = Instance.new('LocalScript', ScreenGui)
+
+local button = "RightControl"
+local screengui = script.Parent
+game:GetService("UserInputService").InputBegan:connect(function(key)
+	if key.KeyCode == Enum.KeyCode.RightControl then
+		if screengui.Enabled == true then 
+			screengui.Enabled = false
+		else
+			screengui.Enabled = true
+		end
+	end
+end)
+
+
+local script = Instance.new('LocalScript', mainfuncbtn)
+
+local button = script.Parent
+local frame = script.Parent.Parent.Parent.functionsframe
+local frame2 = script.Parent.Parent.Parent.otherframe
+
+
+button.MouseButton1Click:Connect(function()
+	frame:TweenPosition(UDim2.new(0.324, 0, 0, 10), "InOut", "Quad", .5, true)
+	frame2:TweenPosition(UDim2.new(0.324, 0, -1, 0), "InOut", "Quad", .5, true)
+end)
+
+local script = Instance.new('LocalScript', otherbtn)
+
+local button = script.Parent
+local frame2 = script.Parent.Parent.Parent.functionsframe
+local frame = script.Parent.Parent.Parent.otherframe
+
+
+button.MouseButton1Click:Connect(function()
+	frame:TweenPosition(UDim2.new(0.324, 0, 0, 10), "InOut", "Quad", .5, true)
+	frame2:TweenPosition(UDim2.new(0.324, 0, 1, 0), "InOut", "Quad", .5, true)
+end)
+
+local script = Instance.new('LocalScript', worldchangecolourbtn)
+
+local button = script.Parent
+local toggle = script.Parent.TextLabel
+
+button.MouseButton1Click:Connect(function()
+	if toggle.BackgroundColor3 == Color3.new(1, 1, 1) then
+		game:GetService("TweenService"):Create(toggle, TweenInfo.new(.5), {
+			["BackgroundColor3"] = Color3.fromRGB(0, 255, 0)
+		}):Play()
+	elseif toggle.BackgroundColor3 == Color3.new(0, 1, 0) then
+		game:GetService("TweenService"):Create(toggle, TweenInfo.new(.5), {
+			["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+		}):Play()
+	end
+end)
+
+
+local script = Instance.new('LocalScript', grenadetpbtn)
+
+local button = script.Parent
+local toggle = script.Parent.TextLabel
+
+button.MouseButton1Click:Connect(function()
+	if toggle.BackgroundColor3 == Color3.new(1, 1, 1) then
+		game:GetService("TweenService"):Create(toggle, TweenInfo.new(.5), {
+			["BackgroundColor3"] = Color3.fromRGB(0, 255, 0)
+		}):Play()
+	elseif toggle.BackgroundColor3 == Color3.new(0, 1, 0) then
+		game:GetService("TweenService"):Create(toggle, TweenInfo.new(.5), {
+			["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+		}):Play()
+	end
+end)
+
+
+local script = Instance.new('LocalScript', chatspambtn)
+
+local button = script.Parent
+local toggle = script.Parent.TextLabel
+
+button.MouseButton1Click:Connect(function()
+	if toggle.BackgroundColor3 == Color3.new(1, 1, 1) then
+		game:GetService("TweenService"):Create(toggle, TweenInfo.new(.5), {
+			["BackgroundColor3"] = Color3.fromRGB(0, 255, 0)
+		}):Play()
+	elseif toggle.BackgroundColor3 == Color3.new(0, 1, 0) then
+		game:GetService("TweenService"):Create(toggle, TweenInfo.new(.5), {
+			["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+		}):Play()
+	end
+end)
+
+
+local script = Instance.new('LocalScript', killsaybtn)
+
+local button = script.Parent
+local toggle = script.Parent.TextLabel
+
+button.MouseButton1Click:Connect(function()
+	if toggle.BackgroundColor3 == Color3.new(1, 1, 1) then
+		game:GetService("TweenService"):Create(toggle, TweenInfo.new(.5), {
+			["BackgroundColor3"] = Color3.fromRGB(0, 255, 0)
+		}):Play()
+	elseif toggle.BackgroundColor3 == Color3.new(0, 1, 0) then
+		game:GetService("TweenService"):Create(toggle, TweenInfo.new(.5), {
+			["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+		}):Play()
+	end
+end)
+
+
+local script = Instance.new('LocalScript', flybtn)
+
+local button = script.Parent
+local toggle = script.Parent.TextLabel
+
+button.MouseButton1Click:Connect(function()
+	if toggle.BackgroundColor3 == Color3.new(1, 1, 1) then
+		game:GetService("TweenService"):Create(toggle, TweenInfo.new(.5), {
+			["BackgroundColor3"] = Color3.fromRGB(0, 255, 0)
+		}):Play()
+	elseif toggle.BackgroundColor3 == Color3.new(0, 1, 0) then
+		game:GetService("TweenService"):Create(toggle, TweenInfo.new(.5), {
+			["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+		}):Play()
+	end
+end)
+
+
+local script = Instance.new('LocalScript', silentaimtbtn)
+
+local button = script.Parent
+local toggle = script.Parent.TextLabel
+
+button.MouseButton1Click:Connect(function()
+	if toggle.BackgroundColor3 == Color3.new(1, 1, 1) then
+		game:GetService("TweenService"):Create(toggle, TweenInfo.new(.5), {
+			["BackgroundColor3"] = Color3.fromRGB(0, 255, 0)
+		}):Play()
+	elseif toggle.BackgroundColor3 == Color3.new(0, 1, 0) then
+		game:GetService("TweenService"):Create(toggle, TweenInfo.new(.5), {
+			["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+		}):Play()
+	end
+end)
+
+
+local script = Instance.new('LocalScript', espbtn)
+
+local button = script.Parent
+local toggle = script.Parent.TextLabel
+
+button.MouseButton1Click:Connect(function()
+	if toggle.BackgroundColor3 == Color3.new(1, 1, 1) then
+		game:GetService("TweenService"):Create(toggle, TweenInfo.new(.5), {
+			["BackgroundColor3"] = Color3.fromRGB(0, 255, 0)
+		}):Play()
+	elseif toggle.BackgroundColor3 == Color3.new(0, 1, 0) then
+		game:GetService("TweenService"):Create(toggle, TweenInfo.new(.5), {
+			["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+		}):Play()
+	end
+end)
+
+
+local script = Instance.new('LocalScript', TextButton)
+
+local gui = script.Parent.Parent.Parent.Parent
+local button = script.Parent
+button.MouseButton1Click:Connect(function()
+	gui:Destroy()
+end)
+
+
+
+local script = Instance.new('LocalScript', ScreenGui)
+
+local Drag = script.Parent.Frame
+gsCoreGui = game:GetService("CoreGui")
+gsTween = game:GetService("TweenService")
+local UserInputService = game:GetService("UserInputService")
+local dragging
+local dragInput
+local dragStart
+local startPos
+local function update(input)
+	local delta = input.Position - dragStart
+	local dragTime = 0.2
+	local SmoothDrag = {}
+	SmoothDrag.Position =
+		UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	local dragSmoothFunction =
+		gsTween:Create(Drag, TweenInfo.new(dragTime, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), SmoothDrag)
+	dragSmoothFunction:Play()
+end
+Drag.InputBegan:Connect(
+	function(input)
+	if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+		dragging = true
+		dragStart = input.Position
+		startPos = Drag.Position
+		input.Changed:Connect(
+				function()
+			if input.UserInputState == Enum.UserInputState.End then
+				dragging = false
+			end
+		end
+			)
+	end
+end
+)
+Drag.InputChanged:Connect(
+	function(input)
+	if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+		dragInput = input
+	end
+end
+)
+UserInputService.InputChanged:Connect(
+	function(input)
+	if input == dragInput and dragging and Drag.Size then
+		update(input)
+	end
+end
+)
+
+
+local script = Instance.new('LocalScript', wlframe)
+
+local Drag = script.Parent
+gsCoreGui = game:GetService("CoreGui")
+gsTween = game:GetService("TweenService")
+local UserInputService = game:GetService("UserInputService")
+local dragging
+local dragInput
+local dragStart
+local startPos
+local function update(input)
+	local delta = input.Position - dragStart
+	local dragTime = 0.2
+	local SmoothDrag = {}
+	SmoothDrag.Position =
+	UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	local dragSmoothFunction = gsTween:Create(Drag, TweenInfo.new(dragTime, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), SmoothDrag)
+	dragSmoothFunction:Play()
+end
+Drag.InputBegan:Connect(
+	function(input)
+	if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+		dragging = true
+		dragStart = input.Position
+		startPos = Drag.Position
+		input.Changed:Connect(
+				function()
+			if input.UserInputState == Enum.UserInputState.End then
+				dragging = false
+			end
+		end
+			)
+	end
+end
+)
+Drag.InputChanged:Connect(
+	function(input)
+	if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+		dragInput = input
+	end
+end
+)
+UserInputService.InputChanged:Connect(
+	function(input)
+	if input == dragInput and dragging and Drag.Size then
+		update(input)
+	end
+end
+)
+
+
+local script = Instance.new('LocalScript', wlframe)
+
+local frame = script.Parent
+local passfrm = script.Parent.password
+local guifrm = script.Parent.Parent.Frame
+local enter = script.Parent.enterbutton
+local textlabel = script.Parent.Whitlist
+enter.MouseButton1Click:Connect(function()
+	if true then
+		textlabel.Text = "Enjoy!"
+		wait(2)
+		frame:TweenPosition(UDim2.new(0.41, 0, -1.0, 0), "In", "Back", 1.5)
+		wait(2)
+		guifrm.Visible = true
+		frame:Destroy()
+	else
+		textlabel.Text = "Don't know how you fucked that up."
+		wait(1)
+		textlabel.Text = "Whitelist"
+	end	
+end)
+
+
+
+local label = script.Parent.TextLabel
+local parent = script.Parent
+
+parent.MouseEnter:Connect(function()
+	label:TweenSize(UDim2.new(0, 78, 0, 1), "Out", "Quad", 0.5, true)
+end)
+parent.MouseLeave:Connect(function()
+	label:TweenSize(UDim2.new(0, 0, 0, 1), "Out", "Quad", 0.5, true)
+end)
+parent.MouseButton1Click:Connect(function()
+	label.BackgroundColor3 = Color3.new(0, 255, 0)
+end)
+parent.MouseLeave:Connect(function()
+	label.BackgroundColor3 = Color3.new(255, 0, 0)
+end)
+
+
+local script = Instance.new('LocalScript', password)
+
+local main = script.Parent
+
+
+
+main.MouseEnter:Connect(function()
+	game:GetService("TweenService"):Create(main, TweenInfo.new(.8), {
+		["BorderColor3"] = Color3.fromRGB(255, 0, 0);
+	}):Play()
+end)
+
+main.MouseLeave:Connect(function()
+	game:GetService("TweenService"):Create(main, TweenInfo.new(.8), {
+		["BorderColor3"] = Color3.fromRGB(94, 94, 94);
+	}):Play()
+end)
+
+
+
+local script = Instance.new('LocalScript', enterbutton)
+
+local label = script.Parent.TextLabel
+local parent = script.Parent
+
+parent.MouseEnter:Connect(function()
+	label:TweenSize(UDim2.new(0, 78, 0, 1), "Out", "Quad", 0.5, true)
+end)
+parent.MouseLeave:Connect(function()
+	label:TweenSize(UDim2.new(0, 0, 0, 1), "Out", "Quad", 0.5, true)
+end)
