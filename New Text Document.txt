@@ -81,7 +81,6 @@ LeftFrame.BackgroundTransparency = 1.000
 LeftFrame.Position = UDim2.new(0.0197915751, 0, 0.025277406, 0)
 LeftFrame.Size = UDim2.new(0, 162, 0, 306)
 
-
 HubNameText.Name = "Hub Name Text"
 HubNameText.Parent = LeftFrame
 HubNameText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -94,6 +93,41 @@ HubNameText.Font = Enum.Font.GothamBlack
 HubNameText.Text = "Rats Nest"
 HubNameText.TextColor3 = Color3.fromRGB(255, 243, 178)
 HubNameText.TextSize = 30.000
+
+BETA.Name = "BETA"
+BETA.Parent = HubNameText
+BETA.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BETA.BackgroundTransparency = 1.000
+BETA.Position = UDim2.new(0.419, 0, 0.600000024, 0)
+BETA.Size = UDim2.new(0, 51, 0, 29)
+BETA.ZIndex = 2
+BETA.Font = Enum.Font.GothamBold
+BETA.Text = "BETA"
+BETA.TextColor3 = Color3.fromRGB(255, 255, 255)
+BETA.TextSize = 18.000
+
+MoreSoon.Name = "MoreSoon"
+MoreSoon.Parent = LeftFrame
+MoreSoon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MoreSoon.BackgroundTransparency = 1.000
+MoreSoon.Position = UDim2.new(0.0522314459, 0, 0.362927377, 0)
+MoreSoon.Size = UDim2.new(0, 145, 0, 40)
+MoreSoon.Font = Enum.Font.GothamBold
+MoreSoon.Text = "More Features soon"
+MoreSoon.TextColor3 = Color3.fromRGB(255, 255, 255)
+MoreSoon.TextSize = 14.000
+
+Creditsname.Name = "Creditsname"
+Creditsname.Parent = LeftFrame
+Creditsname.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Creditsname.BackgroundTransparency = 1.000
+Creditsname.Position = UDim2.new(0.0436913744, 0, 0.467483729, 0)
+Creditsname.Size = UDim2.new(0, 152, 0, 27)
+Creditsname.ZIndex = 2
+Creditsname.Font = Enum.Font.GothamBold
+Creditsname.Text = "Credits"
+Creditsname.TextColor3 = Color3.fromRGB(255, 255, 255)
+Creditsname.TextSize = 14.000
 
 mainfuncbtn.Name = "mainfuncbtn"
 mainfuncbtn.Parent = LeftFrame
@@ -776,6 +810,18 @@ UIGradient.Color = ColorSequence.new{
 }
 UIGradient.Parent = wlframe
 
+PAWN.Name = "PAWN"
+PAWN.Parent = wlframe
+PAWN.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+PAWN.BackgroundTransparency = 1.000
+PAWN.BorderSizePixel = 0
+PAWN.Position = UDim2.new(0.117297873, 0, 0.00639731763, 0)
+PAWN.Size = UDim2.new(0, 200, 0, 50)
+PAWN.Font = Enum.Font.GothamBold
+PAWN.Text = "Rat"
+PAWN.TextColor3 = Color3.fromRGB(255, 255, 255)
+PAWN.TextSize = 25.000
+
 enterbutton.Name = "enterbutton"
 enterbutton.Parent = wlframe
 enterbutton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
@@ -812,7 +858,10 @@ game:GetService("UserInputService").InputBegan:connect(function(key)
 			screengui.Enabled = false
 		else
 			screengui.Enabled = true
-	
+		end
+	end
+end)
+
 
 local script = Instance.new('LocalScript', mainfuncbtn)
 
