@@ -81,6 +81,7 @@ LeftFrame.BackgroundTransparency = 1.000
 LeftFrame.Position = UDim2.new(0.0197915751, 0, 0.025277406, 0)
 LeftFrame.Size = UDim2.new(0, 162, 0, 306)
 
+
 HubNameText.Name = "Hub Name Text"
 HubNameText.Parent = LeftFrame
 HubNameText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -90,44 +91,10 @@ HubNameText.BorderSizePixel = 0
 HubNameText.Position = UDim2.new(-0.0190397725, 0, 0.0116364136, 0)
 HubNameText.Size = UDim2.new(0, 168, 0, 46)
 HubNameText.Font = Enum.Font.GothamBlack
-HubNameText.Text = "Rats Nest"
+HubNameText.Text = "Rats Hacks"
 HubNameText.TextColor3 = Color3.fromRGB(255, 243, 178)
 HubNameText.TextSize = 30.000
 
-BETA.Name = "BETA"
-BETA.Parent = HubNameText
-BETA.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BETA.BackgroundTransparency = 1.000
-BETA.Position = UDim2.new(0.419, 0, 0.600000024, 0)
-BETA.Size = UDim2.new(0, 51, 0, 29)
-BETA.ZIndex = 2
-BETA.Font = Enum.Font.GothamBold
-BETA.Text = "BETA"
-BETA.TextColor3 = Color3.fromRGB(255, 255, 255)
-BETA.TextSize = 18.000
-
-MoreSoon.Name = "MoreSoon"
-MoreSoon.Parent = LeftFrame
-MoreSoon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-MoreSoon.BackgroundTransparency = 1.000
-MoreSoon.Position = UDim2.new(0.0522314459, 0, 0.362927377, 0)
-MoreSoon.Size = UDim2.new(0, 145, 0, 40)
-MoreSoon.Font = Enum.Font.GothamBold
-MoreSoon.Text = "More Features soon"
-MoreSoon.TextColor3 = Color3.fromRGB(255, 255, 255)
-MoreSoon.TextSize = 14.000
-
-Creditsname.Name = "Creditsname"
-Creditsname.Parent = LeftFrame
-Creditsname.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Creditsname.BackgroundTransparency = 1.000
-Creditsname.Position = UDim2.new(0.0436913744, 0, 0.467483729, 0)
-Creditsname.Size = UDim2.new(0, 152, 0, 27)
-Creditsname.ZIndex = 2
-Creditsname.Font = Enum.Font.GothamBold
-Creditsname.Text = "Credits"
-Creditsname.TextColor3 = Color3.fromRGB(255, 255, 255)
-Creditsname.TextSize = 14.000
 
 mainfuncbtn.Name = "mainfuncbtn"
 mainfuncbtn.Parent = LeftFrame
@@ -810,6 +777,21 @@ UIGradient.Color = ColorSequence.new{
 }
 UIGradient.Parent = wlframe
 
+
+password.Name = "password"
+password.Parent = wlframe
+password.BackgroundColor3 = Color3.fromRGB(190, 190, 190)
+password.Position = UDim2.new(0.183074147, 0, 0.551207483, 0)
+password.Size = UDim2.new(0, 200, 0, 21)
+password.Font = Enum.Font.GothamBold
+password.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
+password.PlaceholderText = "Key Here."
+password.Text = ""
+password.TextColor3 = Color3.fromRGB(0, 0, 0)
+password.TextSize = 17.000
+password.TextStrokeColor3 = Color3.fromRGB(255, 170, 0)
+password.TextWrapped = true
+
 PAWN.Name = "PAWN"
 PAWN.Parent = wlframe
 PAWN.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
@@ -821,6 +803,29 @@ PAWN.Font = Enum.Font.GothamBold
 PAWN.Text = "Rat"
 PAWN.TextColor3 = Color3.fromRGB(255, 255, 255)
 PAWN.TextSize = 25.000
+
+BETA_2.Name = "BETA"
+BETA_2.Parent = wlframe
+BETA_2.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+BETA_2.BackgroundTransparency = 1.000
+BETA_2.Position = UDim2.new(0.188999996, 0, 0.123090915, 0)
+BETA_2.Size = UDim2.new(0, 200, 0, 50)
+BETA_2.Font = Enum.Font.GothamBlack
+BETA_2.Text = "BETA"
+BETA_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+BETA_2.TextSize = 20.000
+BETA_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+Whitlist.Name = "Whitlist"
+Whitlist.Parent = wlframe
+Whitlist.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Whitlist.BackgroundTransparency = 1.000
+Whitlist.Position = UDim2.new(0.186070427, 0, 0.285185158, 0)
+Whitlist.Size = UDim2.new(0, 200, 0, 50)
+Whitlist.Font = Enum.Font.GothamBold
+Whitlist.Text = "Whitelist"
+Whitlist.TextColor3 = Color3.fromRGB(255, 255, 255)
+Whitlist.TextSize = 25.000
 
 enterbutton.Name = "enterbutton"
 enterbutton.Parent = wlframe
