@@ -715,15 +715,103 @@ TextButton_Roundify_10px_7.ScaleType = Enum.ScaleType.Slice
 TextButton_Roundify_10px_7.SliceCenter = Rect.new(100, 100, 100, 100)
 TextButton_Roundify_10px_7.SliceScale = 0.100
 
+UIListLayout.Parent = functionsframe
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.VerticalAlignment = Enum.VerticalAlignment.Center
+UIListLayout.Padding = UDim.new(0, 10)
+
+otherframe.Name = "otherframe"
+otherframe.Parent = Frame
+otherframe.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+otherframe.BorderSizePixel = 0
+otherframe.Position = UDim2.new(0.324000001, 0, -1, 0)
+otherframe.Size = UDim2.new(0, 369, 0, 303)
+
+TextButton.Parent = otherframe
+TextButton.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+TextButton.BackgroundTransparency = 1.000
+TextButton.BorderSizePixel = 0
+TextButton.Size = UDim2.new(0, 117, 0, 39)
+TextButton.ZIndex = 2
+TextButton.Font = Enum.Font.GothamBlack
+TextButton.Text = "Kill Gui"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 14.000
+
+TextButton_Roundify_12px.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px.Parent = TextButton
+TextButton_Roundify_12px.Active = true
+TextButton_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px.BackgroundTransparency = 1.000
+TextButton_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextButton_Roundify_12px.Selectable = true
+TextButton_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px.ImageColor3 = Color3.fromRGB(43, 43, 43)
+TextButton_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px.SliceScale = 0.120
+
+UIListLayout_2.Parent = otherframe
+UIListLayout_2.Padding = UDim.new(0, 10)
+
+wlframe.Name = "wlframe"
+wlframe.Parent = ScreenGui
+wlframe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+wlframe.BackgroundTransparency = 1.000
+wlframe.BorderSizePixel = 0
+wlframe.Position = UDim2.new(0.413195282, 0, 0.374794602, 0)
+wlframe.Size = UDim2.new(0, 331, 0, 206)
+wlframe.Image = "rbxassetid://3570695787"
+wlframe.ScaleType = Enum.ScaleType.Slice
+wlframe.SliceCenter = Rect.new(100, 100, 100, 100)
+wlframe.SliceScale = 0.120
+
+UIGradient.Color = ColorSequence.new{
+	ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)),
+	ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)),
+	ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 0)),
+	ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))
 }
 UIGradient.Parent = wlframe
 
+enterbutton.Name = "enterbutton"
+enterbutton.Parent = wlframe
+enterbutton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+enterbutton.BorderColor3 = Color3.fromRGB(0, 189, 167)
+enterbutton.BorderSizePixel = 0
+enterbutton.Position = UDim2.new(0.678620756, 0, 0.780036092, 0)
+enterbutton.Size = UDim2.new(0, 78, 0, 24)
+enterbutton.ZIndex = 2
+enterbutton.Font = Enum.Font.SourceSans
+enterbutton.Text = "Enter"
+enterbutton.TextColor3 = Color3.fromRGB(255, 128, 0)
+enterbutton.TextSize = 14.000
+
+TextLabel_9.Parent = enterbutton
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(200, 0, 0)
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(0, 0, 1, 0)
+TextLabel_9.Size = UDim2.new(0, 0, 0, 1)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = ""
+TextLabel_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.TextSize = 14.000
 
 -- Scripts:
 
 
+local script = Instance.new('LocalScript', ScreenGui)
 
-screengui.Enabled = true
+local button = "RightControl"
+local screengui = script.Parent
+game:GetService("UserInputService").InputBegan:connect(function(key)
+	if key.KeyCode == Enum.KeyCode.RightControl then
+		if screengui.Enabled == true then 
+			screengui.Enabled = false
+		else
+			screengui.Enabled = true
 	
 
 local script = Instance.new('LocalScript', mainfuncbtn)
